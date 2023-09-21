@@ -1,7 +1,7 @@
-#Names: Benjamin Liu and Abraham Medina
-#Project: Data analytics
+# Names: Benjamin Liu and Abraham Medina
+# Project: Data analytics
 
------------------------How to use-----------------------
+### -----------------------How to use-----------------------
 Open and run the program TeamProject_Stats.py 
 A small window should appear prompting for a csv file.
 The user can either manually type the file path to the csv file, or they can use the browse button to search for it.
@@ -20,11 +20,11 @@ The user can go back to the previous window and select a different graph to view
 The reset button can be selected to take the user back to the file select screen, and they can input a different csv file.
 To exit the program hit the x on the top right window similar to exiting the graph.  
 
------------------------Notes and Design stipulations----------------------- 
-The program expects a csv file, but a txt file could be accepted. As long as the txt file follows the same format as a csv file it should be fine.
+### -----------------------Notes and Design stipulations----------------------- 
+"The program expects a csv file, but a txt file could be accepted. As long as the txt file follows the same format as a csv file it should be fine.
 But there could be unexpected results if the txt file does not follow the same format as a csv file.
 For the csv files themselves we expect the first row to be the names of each column. 
 We also expect the first column to be the names/labels of each row.
 Refer to the Global Temperature Anomaly.csv and planets.csv file for how the program expects the csv file to be formatted. 
 For the pie chart, it can only graph data if all the values in that data set are positive. A pie chart can not be created if there are negative values within the data set
-and an error message should pop up, stating the pie chart could not be create because of this.
+and an error message should pop up, stating the pie chart could not be create because of this."
